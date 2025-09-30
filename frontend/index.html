@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Pricing Page (Blue/Green)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Roboto, "Segoe UI", Helvetica, Arial; padding: 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .plans { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+    .plan-title { font-size: 1.1rem; font-weight: 700; }
+    .price { font-size: 1.4rem; margin-top: 8px; }
+    ul { padding-left: 18px; }
+    .meta { margin-bottom: 12px; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pricing Page (Blue/Green Demo)</h1>
+    <div class="meta" id="meta">Loading...</div>
+    <div class="plans" id="plans"></div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

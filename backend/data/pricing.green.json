@@ -1,0 +1,7 @@
+{
+  "name": "green",
+  "plans": [
+    {"id":"basic","title":"Basic","price":"$4.50/mo","features":["Feature A","Feature B (improved)"]},
+    {"id":"pro","title":"Pro","price":"$13.50/mo","features":["Feature A","Feature B","Feature C","Feature D (new)"]}
+  ]
+}
