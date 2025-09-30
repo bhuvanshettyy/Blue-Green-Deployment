@@ -1,7 +1,7 @@
 {
   "name": "blue",
   "plans": [
-    {"id":"basic","title":"Basic","price":"$5/mo","features":["Feature A","Feature B"]},
+    {"id":"basic","title":"Basic","price":"$5/mo","features":["Feature A","Feature B"],"test": "test"},
     {"id":"pro","title":"Pro","price":"$15/mo","features":["Feature A","Feature B","Feature C"]}
   ]
 }

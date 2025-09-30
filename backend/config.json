@@ -1,7 +1,7 @@
 {
   "default": "percentage",
   "rulesOrder": ["header", "cookie", "ip", "percentage"],
-  "percentage": { "blue": 0, "green": 100 },
+  "percentage": { "blue": 70, "green": 30 },
   "cookieName": "pricing_version",
   "cookieMaxAgeDays": 30,
   "ipMap": {}
