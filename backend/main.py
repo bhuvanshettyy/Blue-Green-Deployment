@@ -1,4 +1,5 @@
-from .routing import decide_version
+# in backend/main.py
+from backend.routing import decide_version
 from .logger import log_request
 import os
 import json
