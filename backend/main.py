@@ -1,5 +1,5 @@
-from backend.routing import decide_version
-from backend.logger import log_request
+from .routing import decide_version
+from .logger import log_request
 import os
 import json
 from pathlib import Path
